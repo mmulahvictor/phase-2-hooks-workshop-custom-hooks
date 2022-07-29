@@ -1,70 +1,75 @@
-# Custom Hooks Workshop
+# Book App
 
-## Learning Goals
+## By Victor Mmulah
 
-- Understand the benefits of creating custom hooks
-- Create custom hooks
+## Table of Content
 
-## Introduction
+<!-- - [](#) -->
+- [By Victor Mmulah](#by-victor-mmulah)
+- [Table of Content](#table-of-content)
+- [Description](#description)
+  - [Features](#features)
+    - [Requirements](#requirements)
+    - [Installation Process](#installation-process)
+    - [Live Link](#live-link)
+    - [Technology  Used](#technology--used)
+  - [Licence](#licence)
+  - [Authors Info](#authors-info)
 
-This workshop is designed to walk you through a series of short exercises led by
-an instructor where you'll be introduced to some new concepts, experiment with
-code, and go over a solution. The setup for this workshop is different from a
-typical lab, so make sure to read all the steps below before getting started!
+## Description
 
-## Workshop Videos
+    This project is a web application for keeping book records. Users can search book records according to the title or the Author's name.
 
-This series of videos walks through the setup for each exercise, as well as
-going through a solution. Check out these videos if you're working on this
-workshop outside of a lecture setting:
+## Features
 
-- [Workshop Playlist](https://www.youtube.com/watch?v=92MdajVNToM&list=PLc6AmvC5ZybzzDIuqsc7jDvDQEw8DgOjn)
+As a user of the application,you will be able to :
 
-You can view the solution code for this playlist on the `solution` branch.
+1. Search books by author or the title.
+1. View book records.
 
-## Setup
+### Requirements
 
-- Fork and clone this repo
-- Run `npm install` in the repo directory
-- Run `npm start` to run the project in the browser
-- In another terminal, run `npm test` to run the tests for all exercises
+- Access to  a computer or any other garget
+- Access to internet
 
-In the tab that is running tests, you can press the `p` key to select a specific
-test file to run. For example, hitting `p` and then typing `01.js` will run the
-first test.
+### Installation Process
 
-## Instructions
+ ****
 
-The `src` directory has two folders: one for the `solution` code, and one for
-the exercises. You'll be working in the `exercise` folder.
+- Clone to their repo : git clone <git@github.com:mmulahvictor/books-app-project.git>
+- Unzip the downloaded files in a folder of choice.
+- Open the index file from the zipped file with any browser.
 
-- `src/exercise/01.js`: Exercise (write your code here)
-- `src/exercise/01.md`: Deliverables and helpful notes
-- `src/__tests__/01.js`: Exercise test
-- `src/__tests__/01.extra-1.js`: Test for extra credit exercise
-- `src/solution/01.js`: Solution code (check your work, or look for a hint if
-  you're stuck)
-- `src/solution/01.extra-1.js`: Solution code for extra credit exercise
+ ****
 
-Each deliverable in the `exercise` folder has comments to guide your work!
+### Live Link
 
-There are some emoji to guide you in the exercises:
+- Click this link to view the live application <<https://book-application-project.herokuapp.com/> >
 
-- ✅ Instructions where to write your code
-- 👀 A hint on what syntax to use/what code to write
-- 📃 Helpful documentation
+### Technology  Used
 
-> All credit to [Kent C Dodds](https://kentcdodds.com/) for the emoji guide
-> idea, and general inspiration for this workshop format!
+- CSS - which was used to style the User Interface.
+- React JS - which was used for DOM(Document Object Manipulation) scripts.
+- JSON - for data manipulation
 
-When running the workshop app in the browser, you can see the readme for each
-exercise alongside a sandbox where you can view your exercise code to see if it
-works. You can also open up your exercise code in a new browser tab to view the
-exercise alone, and more easily see what's happening in the React Dev Tools.
+## Licence
 
-You can also view working examples of the code in the browser by clicking the
-solution tab.
+MIT License
+Copyright (c) [2022] [Victor Mmulah]
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-Some exercises have bonus challenges to do for extra credit, so if you finish
-early, give them a shot! Or save them for later when you want to revisit these
-exercises.
+## Authors Info
